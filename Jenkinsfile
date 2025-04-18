@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'github-creds', url: 'https://github.com/MIsbah01118/Jenkins-CICD-Demo.git', branch: 'main'
+                git credentialsId: 'github-creds', url: 'https://github.com/Misbah01118/Jenkins-CICD-Demo.git', branch: 'main'
             }
         }
 
